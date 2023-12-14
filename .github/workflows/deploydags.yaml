@@ -16,6 +16,6 @@
                 uses: patrickwyler/gcs-bucket-sync-action@1.4
                 with:
                   secrets: ${{ secrets.GCS_SA_KEY }}
-                  bucket: 'gs://us-central1-composer-prod-19b6a35f-bucket/dags'
+                  bucket: 'us-central1-composer-prod-19b6a35f-bucket/dags'
                   exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
         
